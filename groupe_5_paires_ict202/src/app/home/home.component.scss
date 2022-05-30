@@ -1,0 +1,111 @@
+/*profile page*/
+
+.left-profile-card .user-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.left-profile-card h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.left-profile-card p {
+    margin-bottom: 5px;
+}
+
+.left-profile-card .progress-bar {
+    background-color: var(--main-color);
+}
+
+.personal-info {
+    margin-bottom: 30px;
+}
+
+.personal-info .personal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.personal-list li {
+    margin-bottom: 5px;
+}
+
+.personal-info h3 {
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.personal-info i {
+    font-size: 15px;
+    color: var(--main-color);
+    ;
+    margin-right: 15px;
+    width: 18px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    margin-bottom: 5px;
+}
+
+.languages h3 {
+    margin-bottom: 15px;
+}
+
+.languages p {
+    margin-bottom: 5px;
+}
+
+.right-profile-card .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.right-profile-card .nav>li {
+    float: left;
+    margin-right: 10px;
+}
+
+.right-profile-card .nav-pills .nav-link {
+    border-radius: 26px;
+}
+
+.right-profile-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.right-profile-card h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.right-profile-card i {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.right-profile-card .work-container {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding: 10px;
+}
