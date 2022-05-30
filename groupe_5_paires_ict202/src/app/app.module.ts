@@ -14,6 +14,7 @@ import { LanguagesComponent } from './home/content/languages/languages.component
 import { ProjetsPersonnelComponent } from './home/content/projets-personnel/projets-personnel.component';
 import { RouterModule } from '@angular/router';
 import { CvRoutingModule } from './home/cv-routing.module';
+import { ProfileComponent } from './home/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CvRoutingModule } from './home/cv-routing.module';
     ExperiencesComponent,
     FormationsComponent,
     LanguagesComponent,
-    ProjetsPersonnelComponent
+    ProjetsPersonnelComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

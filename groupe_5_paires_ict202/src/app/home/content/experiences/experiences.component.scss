@@ -1,0 +1,103 @@
+/* TimeLine*/
+
+.main-timeline {
+    position: relative;
+    }
+    
+    .main-timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #939597;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    }
+    
+    .timeline {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    }
+    
+    .timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #939597;
+    border: 5px solid #F5DF4D;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    }
+    
+    .left {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+    }
+    
+    .right {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+    }
+    
+    .left::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    }
+    
+    .right::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+    
+    .right::after {
+    left: -12px;
+    }
+    
+    @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .main-timeline::after {
+    left: 31px;
+    }
+    
+    .timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    .timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+
+    .left::after, .right::after {
+    left: 18px;
+    }
+    
+    .left::before {
+    right: auto;
+    }
+    
+    .right {
+    left: 0%;
+    }
+}
