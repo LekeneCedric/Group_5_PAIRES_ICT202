@@ -1,0 +1,48 @@
+<!-- Ici le bar de navigation -->
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand" routerLinkActive="active" [routerLink]="['home/informations']">Informations</a>
+    <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" 
+            routerLinkActive="active" 
+            [routerLink]="['home/experiences']" 
+            title="Expériences Professionnelles ">Experiences</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" 
+            routerLinkActive="active" 
+            [routerLink]="['home/competences']"
+            title="Competences Acquis">Competences</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" 
+            routerLinkActive="active" 
+            [routerLink]="['home/formations']"
+            title="Formations Professionnelles">Formations</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" 
+            routerLinkActive="active" 
+            [routerLink]="['home/languages']"
+            title="Languages">Languages</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" 
+            routerLinkActive="active" 
+            [routerLink]="['home/projects']"
+            title="Projets Personnels">Projects Personnel</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link disabled">Centres d'intérêt</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
